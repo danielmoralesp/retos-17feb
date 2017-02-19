@@ -8,16 +8,7 @@ extinct_animals = {
   "Laysan Crake" => 1923
 }
 
-
-if extinct_animals.has_key?("Andean Cat")
-  puts "Andean Cat si esta en la lista"
-elsif extinct_animals.has_key?("Dodo")
-  puts "Dodo si esta en la lista"
-end
-
-
-
-
-extinct_animals.each do |key, value|
-  puts "* #{key} - #{value}"
-end
+extinct_animals.has_key?("Andean Cat")
+extinct_animals.has_key?("Dodo")
+extinct_animals.has_key?("Tasmanian Tiger")
+extinct_animals.has_key?("Saiga Antelope")
