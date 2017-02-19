@@ -11,4 +11,4 @@ extinct_animals = {
 eliminar = "Passenger Pigeon"
 puts extinct_animals.assoc(eliminar)
 extinct_animals.delete(eliminar)
-puts extinct_animals
+puts extinct_animals  
