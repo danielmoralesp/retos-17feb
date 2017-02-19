@@ -8,7 +8,5 @@ extinct_animals = {
   "Laysan Crake" => 1923
 }
 
-extinct_animals.has_key?("Andean Cat")
-extinct_animals.has_key?("Dodo")
-extinct_animals.has_key?("Tasmanian Tiger")
-extinct_animals.has_key?("Saiga Antelope")
+array = ["Andean Cat", "Dodo", "Tasmanian Tiger",  "Saiga Antelope"]
+array.each {|element| puts extinct_animals.has_key?(element) ? "incluido #{element}" : "no incluido #{element}"}
