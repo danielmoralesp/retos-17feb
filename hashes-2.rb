@@ -8,4 +8,5 @@ extinct_animals = {
   "Laysan Crake" => 1923
 }
 
-extinct_animals.select {|k, v| v < 1999}
+extinct_animals = extinct_animals.select {|k, v| v < 1999}
+puts extinct_animals
